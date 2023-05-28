@@ -20,30 +20,39 @@ Each instance will store the transaction in its own database and
 update the balance for the given account.
 
 ### User stories:
-User story 1 : 
+
+#### User story for creating account 
 As a customer I want to create an account, so I can deposit/withdraw money to/from it. 
 Acceptance criteria :
 - User can create an account by entering an 8 digits number and an amount to deposit/withdraw. 
 - Account is created in the system. 
 
-User story 2 :
+
+#### User story for depositing 
+
 As a customer I want to deposit my money in the bank, so it is safe.
 Acceptance criteria :
 - user can enter desirable amount to deposit. 
 - account balance is added by the amount deposited.
 
-User story 3 :
+
+#### User story for withdrawing
+
 As a customer I want to withdraw some of my money, so I can spend it.
 Acceptance criteria :
 - user can enter desirable amount to withdraw. 
 - account balance is deducted by the amount withdrew. 
 
-User story 4 :
+
+#### User story for checking account balance
+
 As a customer I want to know my balance, so I know how much money I can spend or have spent.
 Acceptance criteria :
 - user can access and see the balance on their account.
 
-User story 5 :
+
+#### User story for list of the latest transactions
+
 As a customer I want to know my latest transactions, so I can see what I have deposited or withdrew
 Acceptance criteria :
 - user can enter the number of the latest transactions (x) they would like to see.
